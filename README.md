@@ -1,5 +1,4 @@
 
-```markdown
 # Dad Jokes React App
 
 Welcome to the Dad Jokes React App! This playful web application fetches a collection of 10 dad jokes from an API and displays them for a good laugh. You can click on the "Add New Joke" button to fetch 10 new jokes, and your preferences, including upvotes and downvotes for each joke, are saved locally using `localStorage`. This means that even after refreshing the page or reopening the app, your jokes and votes will remain intact.

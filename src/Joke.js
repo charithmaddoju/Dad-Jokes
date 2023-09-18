@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Joke.css';
 
 class Joke extends Component {
     constructor(props) {
@@ -11,6 +12,9 @@ class Joke extends Component {
     render() {
         return (
             <div className='Joke'>
+                <div className='Joke-number'>
+                    {this.props.number + 1}
+                </div>
                 <div className='Joke-buttons'>
                     <i
                     onClick={this.props.upVote} 
@@ -20,6 +24,7 @@ class Joke extends Component {
                     onClick={this.props.downVote}
                     className='fas fa-arrow-down' />
                 </div>
+                
                 <div className='Joke-text'>{this.props.text}
                 </div>
             </div>

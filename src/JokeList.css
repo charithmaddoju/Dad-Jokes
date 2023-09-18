@@ -1,0 +1,11 @@
+.JokeList{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.JokeList-Jokes{
+    display: flex; 
+    flex-direction: column;
+}
